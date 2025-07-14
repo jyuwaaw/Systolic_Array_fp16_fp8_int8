@@ -1,0 +1,921 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'systolic_fp16' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 50
+        -max_paths 50
+        -sort_by slack
+Design : systolic_fp16
+Version: S-2021.06
+Date   : Sun Jul 13 19:50:32 2025
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NanGate_15nm_OCL
+Wire Load Model Mode: top
+
+  Startpoint: ROW_14__COL_14__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3815]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_14__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_14__COL_14__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_14__COL_14__pe/c_out[7] (pe_fp16_18)               0.000     13.980 r
+  C_bus[3815] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_13__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3799]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_13__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_14__COL_13__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_14__COL_13__pe/c_out[7] (pe_fp16_19)               0.000     13.980 r
+  C_bus[3799] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_12__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3783]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_12__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_14__COL_12__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_14__COL_12__pe/c_out[7] (pe_fp16_20)               0.000     13.980 r
+  C_bus[3783] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_11__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3767]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_11__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_14__COL_11__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_14__COL_11__pe/c_out[7] (pe_fp16_21)               0.000     13.980 r
+  C_bus[3767] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_10__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3751]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_10__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_14__COL_10__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_14__COL_10__pe/c_out[7] (pe_fp16_22)               0.000     13.980 r
+  C_bus[3751] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_9__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3735]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_9__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_14__COL_9__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_14__COL_9__pe/c_out[7] (pe_fp16_23)                0.000     13.980 r
+  C_bus[3735] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_8__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3719]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_8__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_14__COL_8__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_14__COL_8__pe/c_out[7] (pe_fp16_24)                0.000     13.980 r
+  C_bus[3719] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_7__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3703]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_7__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_14__COL_7__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_14__COL_7__pe/c_out[7] (pe_fp16_25)                0.000     13.980 r
+  C_bus[3703] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_6__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3687]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_6__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_14__COL_6__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_14__COL_6__pe/c_out[7] (pe_fp16_26)                0.000     13.980 r
+  C_bus[3687] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_5__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3671]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_5__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_14__COL_5__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_14__COL_5__pe/c_out[7] (pe_fp16_27)                0.000     13.980 r
+  C_bus[3671] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_4__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3655]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_4__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_14__COL_4__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_14__COL_4__pe/c_out[7] (pe_fp16_28)                0.000     13.980 r
+  C_bus[3655] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_3__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3639]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_3__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_14__COL_3__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_14__COL_3__pe/c_out[7] (pe_fp16_29)                0.000     13.980 r
+  C_bus[3639] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_2__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3623]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_2__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_14__COL_2__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_14__COL_2__pe/c_out[7] (pe_fp16_30)                0.000     13.980 r
+  C_bus[3623] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_1__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3607]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_1__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_14__COL_1__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_14__COL_1__pe/c_out[7] (pe_fp16_31)                0.000     13.980 r
+  C_bus[3607] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_14__COL_0__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3591]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_0__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_14__COL_0__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_14__COL_0__pe/c_out[7] (pe_fp16_32)                0.000     13.980 r
+  C_bus[3591] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_14__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3559]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_14__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_13__COL_14__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_13__COL_14__pe/c_out[7] (pe_fp16_34)               0.000     13.980 r
+  C_bus[3559] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_13__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3543]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_13__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_13__COL_13__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_13__COL_13__pe/c_out[7] (pe_fp16_35)               0.000     13.980 r
+  C_bus[3543] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_12__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3527]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_12__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_13__COL_12__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_13__COL_12__pe/c_out[7] (pe_fp16_36)               0.000     13.980 r
+  C_bus[3527] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_11__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3511]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_11__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_13__COL_11__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_13__COL_11__pe/c_out[7] (pe_fp16_37)               0.000     13.980 r
+  C_bus[3511] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_10__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3495]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_10__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_13__COL_10__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_13__COL_10__pe/c_out[7] (pe_fp16_38)               0.000     13.980 r
+  C_bus[3495] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_9__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3479]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_9__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_13__COL_9__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_13__COL_9__pe/c_out[7] (pe_fp16_39)                0.000     13.980 r
+  C_bus[3479] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_8__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3463]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_8__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_13__COL_8__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_13__COL_8__pe/c_out[7] (pe_fp16_40)                0.000     13.980 r
+  C_bus[3463] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_7__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3447]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_7__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_13__COL_7__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_13__COL_7__pe/c_out[7] (pe_fp16_41)                0.000     13.980 r
+  C_bus[3447] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_6__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3431]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_6__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_13__COL_6__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_13__COL_6__pe/c_out[7] (pe_fp16_42)                0.000     13.980 r
+  C_bus[3431] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_5__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3415]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_5__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_13__COL_5__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_13__COL_5__pe/c_out[7] (pe_fp16_43)                0.000     13.980 r
+  C_bus[3415] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_4__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3399]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_4__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_13__COL_4__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_13__COL_4__pe/c_out[7] (pe_fp16_44)                0.000     13.980 r
+  C_bus[3399] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_3__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3383]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_3__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_13__COL_3__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_13__COL_3__pe/c_out[7] (pe_fp16_45)                0.000     13.980 r
+  C_bus[3383] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_2__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3367]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_2__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_13__COL_2__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_13__COL_2__pe/c_out[7] (pe_fp16_46)                0.000     13.980 r
+  C_bus[3367] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_1__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3351]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_1__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_13__COL_1__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_13__COL_1__pe/c_out[7] (pe_fp16_47)                0.000     13.980 r
+  C_bus[3351] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_13__COL_0__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3335]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_13__COL_0__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_13__COL_0__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_13__COL_0__pe/c_out[7] (pe_fp16_48)                0.000     13.980 r
+  C_bus[3335] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_14__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3303]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_14__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_12__COL_14__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_12__COL_14__pe/c_out[7] (pe_fp16_50)               0.000     13.980 r
+  C_bus[3303] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_13__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3287]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_13__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_12__COL_13__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_12__COL_13__pe/c_out[7] (pe_fp16_51)               0.000     13.980 r
+  C_bus[3287] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_12__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3271]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_12__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_12__COL_12__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_12__COL_12__pe/c_out[7] (pe_fp16_52)               0.000     13.980 r
+  C_bus[3271] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_11__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3255]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_11__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_12__COL_11__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_12__COL_11__pe/c_out[7] (pe_fp16_53)               0.000     13.980 r
+  C_bus[3255] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_10__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3239]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_10__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_12__COL_10__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_12__COL_10__pe/c_out[7] (pe_fp16_54)               0.000     13.980 r
+  C_bus[3239] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_9__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3223]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_9__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_12__COL_9__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_12__COL_9__pe/c_out[7] (pe_fp16_55)                0.000     13.980 r
+  C_bus[3223] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_8__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3207]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_8__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_12__COL_8__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_12__COL_8__pe/c_out[7] (pe_fp16_56)                0.000     13.980 r
+  C_bus[3207] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_7__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3191]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_7__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_12__COL_7__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_12__COL_7__pe/c_out[7] (pe_fp16_57)                0.000     13.980 r
+  C_bus[3191] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_6__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3175]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_6__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_12__COL_6__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_12__COL_6__pe/c_out[7] (pe_fp16_58)                0.000     13.980 r
+  C_bus[3175] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_5__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3159]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_5__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_12__COL_5__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_12__COL_5__pe/c_out[7] (pe_fp16_59)                0.000     13.980 r
+  C_bus[3159] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_4__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3143]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_4__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_12__COL_4__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_12__COL_4__pe/c_out[7] (pe_fp16_60)                0.000     13.980 r
+  C_bus[3143] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_3__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3127]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_3__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_12__COL_3__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_12__COL_3__pe/c_out[7] (pe_fp16_61)                0.000     13.980 r
+  C_bus[3127] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_2__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3111]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_2__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_12__COL_2__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_12__COL_2__pe/c_out[7] (pe_fp16_62)                0.000     13.980 r
+  C_bus[3111] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_1__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3095]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_1__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_12__COL_1__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_12__COL_1__pe/c_out[7] (pe_fp16_63)                0.000     13.980 r
+  C_bus[3095] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_12__COL_0__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3079]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_12__COL_0__pe/c_out_reg_7_/CLK (DFFRNQ_X1)         0.000 #    0.000 r
+  ROW_12__COL_0__pe/c_out_reg_7_/Q (DFFRNQ_X1)          13.980     13.980 r
+  ROW_12__COL_0__pe/c_out[7] (pe_fp16_64)                0.000     13.980 r
+  C_bus[3079] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_11__COL_14__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3047]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_11__COL_14__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_11__COL_14__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_11__COL_14__pe/c_out[7] (pe_fp16_66)               0.000     13.980 r
+  C_bus[3047] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_11__COL_13__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3031]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_11__COL_13__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_11__COL_13__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_11__COL_13__pe/c_out[7] (pe_fp16_67)               0.000     13.980 r
+  C_bus[3031] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_11__COL_12__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[3015]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_11__COL_12__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_11__COL_12__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_11__COL_12__pe/c_out[7] (pe_fp16_68)               0.000     13.980 r
+  C_bus[3015] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_11__COL_11__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[2999]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_11__COL_11__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_11__COL_11__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_11__COL_11__pe/c_out[7] (pe_fp16_69)               0.000     13.980 r
+  C_bus[2999] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ROW_11__COL_10__pe/c_out_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[2983]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_11__COL_10__pe/c_out_reg_7_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_11__COL_10__pe/c_out_reg_7_/Q (DFFRNQ_X1)         13.980     13.980 r
+  ROW_11__COL_10__pe/c_out[7] (pe_fp16_70)               0.000     13.980 r
+  C_bus[2983] (out)                                      0.000     13.980 r
+  data arrival time                                                13.980
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
