@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : systolic_int8
+Version: S-2021.06
+Date   : Sun Jul 13 19:54:03 2025
+****************************************
+
+
+Library(s) Used:
+
+    NanGate_15nm_OCL (File: /users/ugrad/yuhuah2/int8/systolic_array/hw_synthesis/lib/NanGate_15nm_OCL.db)
+
+
+Operating Conditions: typical   Library: NanGate_15nm_OCL
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   2.6131  W   (64%)
+  Net Switching Power  =   1.4919  W   (36%)
+                         ---------
+Total Dynamic Power    =   4.1050  W  (100%)
+
+Cell Leakage Power     =   1.3770 mW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential     1.6596e+03           91.9109        4.6883e+08        1.7520e+03  (  42.67%)
+combinational    953.4767        1.4000e+03        9.0813e+08        2.3544e+03  (  57.33%)
+--------------------------------------------------------------------------------------------------
+Total          2.6131e+03 mW     1.4919e+03 mW     1.3770e+09 pW     4.1064e+03 mW
+1

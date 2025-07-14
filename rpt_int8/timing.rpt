@@ -1,0 +1,36 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by slack
+Design : systolic_int8
+Version: S-2021.06
+Date   : Sun Jul 13 19:53:54 2025
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NanGate_15nm_OCL
+Wire Load Model Mode: top
+
+  Startpoint: ROW_14__COL_14__pe/c_out_reg_0_
+              (rising edge-triggered flip-flop)
+  Endpoint: C_bus[7616]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  ROW_14__COL_14__pe/c_out_reg_0_/CLK (DFFRNQ_X1)        0.000 #    0.000 r
+  ROW_14__COL_14__pe/c_out_reg_0_/Q (DFFRNQ_X1)         13.064     13.064 r
+  ROW_14__COL_14__pe/c_out[0] (pe_int8_18)               0.000     13.064 r
+  C_bus[7616] (out)                                      0.000     13.064 r
+  data arrival time                                                13.064
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
