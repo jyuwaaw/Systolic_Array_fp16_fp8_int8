@@ -37,10 +37,12 @@ Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   B
                                   Total       Total    national    national    boxes   Design
 --------------------------------  ----------  -------  ----------  ----------  ------  -------------------------------------
 systolic_int8                     48582.6237    100.0      0.0000      0.0000  0.0000  systolic_int8
+
 ROW_0__COL_0__pe                    189.7759      0.4      1.4746     61.3417  0.0000  pe_int8_0
 ROW_0__COL_0__pe/add_26              37.5030      0.1     37.5030      0.0000  0.0000  pe_int8_0_DW01_add_0_DW01_add_510
 ROW_0__COL_0__pe/mult_17             89.4566      0.2     78.6924      0.0000  0.0000  pe_int8_0_DW02_mult_0_DW02_mult_255
 ROW_0__COL_0__pe/mult_17/FS_1        10.7643      0.0     10.7643      0.0000  0.0000  pe_int8_0_DW01_add_1_DW01_add_511
+
 ROW_0__COL_10__pe                   189.7759      0.4      1.4746     61.3417  0.0000  pe_int8_246
 ROW_0__COL_10__pe/add_26             37.5030      0.1     37.5030      0.0000  0.0000  pe_int8_246_DW01_add_0_DW01_add_490
 ROW_0__COL_10__pe/mult_17            89.4566      0.2     78.6924      0.0000  0.0000  pe_int8_246_DW02_mult_0_DW02_mult_245
